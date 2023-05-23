@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>test</short-name>
+  <uri>/WEB-INF/tlds/test</uri>
+  
+  <function>
+    <name>getAllEmp</name>
+    <function-class>Service.Employee.EmployeeClient</function-class>
+    <function-signature>java.util.ArrayList getAllEmployee()</function-signature>
+  </function>
+  
+    <function>
+    <name>getAllTestCategory</name>
+    <function-class>Service.MedicalTest.MedicalTestClient</function-class>
+    <function-signature>java.util.ArrayList getAllTestCategory()</function-signature>
+  </function>
+  
+   <function>
+    <name>getAllTechnicians</name>
+    <function-class>Service.Employee.EmployeeClient</function-class>
+    <function-signature>java.util.ArrayList getAllTechnicians()</function-signature>
+  </function>
+  
+   <function>
+    <name>getAllTest</name>
+    <function-class>Service.MedicalTest.MedicalTestClient</function-class>
+    <function-signature>java.util.ArrayList getAllTest()</function-signature>
+  </function>
+  
+   <function>
+    <name>getAllCategory</name>
+    <function-class>Service.MedicalTest.MedicalTestClient</function-class>
+    <function-signature>java.util.ArrayList getAllTestCategory()</function-signature>
+  </function>
+  
+  <function>
+    <name>getAllUserAccounts</name>
+    <function-class>Service.UserAccount.UserAccountClient</function-class>
+    <function-signature>java.util.ArrayList getAllUserAccounts()</function-signature>
+  </function>
+  
+  <function>
+    <name>getAllEmpNoAcc</name>
+    <function-class>Service.UserAccount.UserAccountClient</function-class>
+    <function-signature>java.util.ArrayList getAllEmpNoAcc()</function-signature>
+  </function>
+  
+   <function>
+    <name>getAllPatients</name>
+    <function-class>Service.Patient.PatientClient</function-class>
+    <function-signature>java.util.ArrayList getAllPatient()</function-signature>
+  </function>
+  
+  <function>
+    <name>getAllAppointment</name>
+    <function-class>Service.Appointment.AppointmentClient</function-class>
+    <function-signature>java.util.ArrayList getAllAppointment()</function-signature>
+  </function>
+  
+</taglib>
